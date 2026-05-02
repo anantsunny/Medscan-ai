@@ -62,6 +62,28 @@ npm run dev
 
 ---
 
+## 💰 Cost Optimization
+
+Running MedScan AI at scale requires choosing models with high vision performance but low token costs. For production workloads, we recommend models that process a single prescription for **less than $0.01 (1 cent)**.
+
+| Model Recommendation | Provider | Est. Cost / Prescription | Best For |
+|----------------------|----------|--------------------------|----------|
+| `google/gemini-3-flash-preview` | OpenRouter | ~$0.01 | Speed & Accuracy (Tested) |
+| `google/gemini-1.5-flash` | Google/OR | < $0.001 | Highest ROI, massive context |
+| `openai/gpt-4o-mini` | OpenAI/OR | < $0.001 | Great reliability, low latency |
+| `meta-llama/llama-3.2-11b-vision` | Groq/OR | ~$0.00 (Free tier) | Real-time parsing |
+
+### 🆓 OpenRouter Free Models
+OpenRouter offers several high-quality vision models for **$0.00 (completely free)**. These are ideal for testing and low-volume production.
+*   **Search for `:free` suffix:** Look for models like `google/gemma-2-9b-it:free` or `meta-llama/llama-3.2-11b-vision-instruct:free`.
+*   **Automatic Routing:** Use `openrouter/auto` to let OpenRouter pick the best available model (often routes to free options if context allows).
+
+> **Note:** Free models often have stricter rate limits. Check the [OpenRouter Models](https://openrouter.ai/models?max_price=0) page for the latest free offerings.
+
+> **Pro Tip:** Use `google/gemini-1.5-flash` via Google AI Studio for a generous free tier (15 RPM) during development.
+
+---
+
 ## 🗂 Project Structure
 
 ```

@@ -16,9 +16,9 @@ export const PROVIDERS: ProviderInfo[] = [
     visionSupport: true,
     freeTier: true,
     exampleModels: [
-      "anthropic/claude-3-5-sonnet",
-      "openai/gpt-4o",
-      "google/gemini-2.0-flash",
+      "google/gemini-3-flash-preview",
+      "google/gemini-1.5-flash",
+      "openai/gpt-4o-mini"
     ],
     website: "https://openrouter.ai",
   },
@@ -64,7 +64,7 @@ export const PROVIDERS: ProviderInfo[] = [
     baseUrl: "https://generativelanguage.googleapis.com/v1beta/openai",
     visionSupport: true,
     freeTier: true,
-    exampleModels: ["gemini-2.0-flash", "gemini-1.5-pro"],
+    exampleModels: ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"],
     website: "https://aistudio.google.com",
   },
   {
