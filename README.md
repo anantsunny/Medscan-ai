@@ -1,12 +1,22 @@
 # MedScan AI 🏥
 
-> AI-Powered Prescription & Lab Report Analyzer — Self-hostable, no vendor lock-in.
+> **Transforming Medical Complexity into Structured Intelligence.**  
+> MedScan AI is a state-of-the-art, open-source Vision AI platform designed to parse prescriptions and lab reports into actionable health data—with zero vendor lock-in and a focus on cost-efficiency.
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)](https://nextjs.org)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev)
+[![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)](https://nextjs.org)
+[![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev)
+[![OpenRouter](https://img.shields.io/badge/AI-Universal_Router-FF4B4B)](https://openrouter.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Built to demonstrate **Vision AI in healthcare** using production patterns from Zeno Health's 440+ pharmacy network.
+---
+
+### 🌟 Why MedScan AI?
+
+Traditional healthcare data is often trapped in handwritten notes and scanned PDFs. **MedScan AI** uses production-grade Vision AI patterns—inspired by systems powering 400+ pharmacy networks—to bridge the gap between physical documents and digital health records.
+
+*   **Provider Agnostic:** Swap between Gemini, Claude, GPT-4o, or Llama with a single `.env` change.
+*   **Privacy First:** Zero data retention. Images are processed in-memory and never stored.
+*   **Ultra Low Cost:** Optimized for models like `Gemini 3 Flash` to keep analysis costs under **$0.01 per document**.
 
 ---
 
