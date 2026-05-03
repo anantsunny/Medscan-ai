@@ -158,6 +158,33 @@ Built to demonstrate Vision AI in healthcare — **not a medical device**.
 
 ---
 
+---
+
+## 📦 GitHub Packages
+
+This project is configured to be published to [GitHub Packages](https://github.com/medscan-ai/medscan-ai/packages).
+
+### Installation
+
+To use MedScan AI in your own project, first configure your `.npmrc` to authenticate with GitHub:
+
+```ini
+@medscan-ai:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_PAT
+```
+
+Then install the package:
+
+```bash
+npm install @medscan-ai/medscan-ai
+```
+
+### Publishing
+
+The package is automatically published to GitHub Packages whenever a new GitHub Release is created via the [Publish Package](.github/workflows/publish.yml) workflow.
+
+---
+
 ## License
 
 MIT © 2025 MedScan AI Contributors

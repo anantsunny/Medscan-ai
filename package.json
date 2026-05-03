@@ -1,7 +1,9 @@
 {
-  "name": "prescription-check",
+  "name": "@medscan-ai/medscan-ai",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
