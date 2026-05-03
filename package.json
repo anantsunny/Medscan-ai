@@ -1,5 +1,5 @@
 {
-  "name": "@medscan-ai/medscan-ai",
+  "name": "@anantsunny/medscan-ai",
   "version": "0.1.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
